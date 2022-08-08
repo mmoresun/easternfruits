@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +33,7 @@ header {
     flex-direction: row;
     height: 90px;
     align-items: center;
-    
+
 }
 
 .logo {
@@ -104,22 +103,22 @@ nav>a {
 
 .big__slider--frame {
 
-    width: 1440px; 
-    height: 668px;     
-    overflow: hidden;     
+    width: 1440px;
+    height: 668px;
+    overflow: hidden;
     position: relative;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    
+
 }
 
 .big__slider {
 
-    width: 4320px;    
-    height: 668px;         
+    width: 4320px;
+    height: 668px;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     transition: 400ms ease-in-out;
 }
 
@@ -146,7 +145,7 @@ nav>a {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;    
+    line-height: 19px;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -194,23 +193,24 @@ nav>a {
 
 .button__block {
 
-    width: 68px;    
+    width: 68px;
     background-color: rgba(255, 255, 255, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
     position: absolute;
     bottom: 35px;
-    left: 155px; 
+    left: 155px;
 
 }
 
 .button__block>button {
-    
+
     width: 12px;
     height: 12px;
-    background-color: #ffffff;    
+    background-color: #ffffff;
+    transition: 400ms ease-in-out;
     border-radius: 6px;
     border: none;
 }
@@ -218,14 +218,92 @@ nav>a {
 .button__block>button.clicked {
 
     background-color: #FC0079;
+    transition: 400ms ease-in-out;
+    border: none;
+
+}
+
+
+.main__block {
+
+    width: 1440px;
+    height: 1440px;
+    background-color: #ffffff;
+}
+
+.main__block::before {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    content: "ТОРГОВЫЕ МАРКИ";
+    font-family: 'Krub', sans-serif;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 150px;
+    text-transform: uppercase;
+    color: #F4F6F8;
+    height: 170px;
+    margin-top: 60px;    
+}
+
+.main__block--row-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    position: relative;
+    top: -80px;
+}
+
+.main__block--row-container-item {
+
     
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 17px 0 17px;
     
 }
 
-.marmelad {
-
-    font-family: 'Marmelad', sans-serif;
+.main__block--row-container-item-top img {
+    
+    width: 340px;   
+    padding: 0;
+    position: relative;
+    top: 4px;
+    
 }
+
+.main__block--row-container-item-bottom {
+
+    width: 340px;
+    height: 56px;
+    background: rgba(130, 81, 231, 0.94);
+    border-radius: 0px 0px 10px 10px;
+    color: #F4F6F8;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main__block--column-container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main__block--column-container-item {
+
+    display: flex;
+    flex-direction: row;
+}
+
 
 footer {
 
@@ -300,4 +378,3 @@ footer {
     font-size: 16px;
     line-height: 21px;
 }
-
