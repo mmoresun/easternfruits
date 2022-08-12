@@ -8,7 +8,7 @@
 
         sliderButton2.addEventListener('click', function() {
             
-            bigSlider.style.marginLeft = '-1440px';
+            bigSlider.style.marginLeft = '-100%';
             sliderButton2.style.backgroundColor ='#FC0079';
             sliderButton1.style.backgroundColor ='#ffffff';
             sliderButton3.style.backgroundColor ='#ffffff';
@@ -16,7 +16,7 @@
 
         sliderButton3.addEventListener('click', function() {
             
-            bigSlider.style.marginLeft = '-2880px';
+            bigSlider.style.marginLeft = '-200%';
             sliderButton2.style.backgroundColor ='#ffffff';
             sliderButton1.style.backgroundColor ='#ffffff';
             sliderButton3.style.backgroundColor ='#FC0079';
