@@ -10,6 +10,7 @@ body {
     max-width: 1440px;
 }
 
+
 .header {
 
     margin-bottom: 5px;
@@ -27,6 +28,50 @@ body {
 
 }
 
+.nav {
+    padding: 0 0 0 93px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav>a {
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__phonesearch {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__phone {
+
+    background: #8251E7;
+    border-radius: 10px;
+    width: 206px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;    
+    color: #FFFFFF;
+    margin-left: 100px;
+
+}
 
 .slider {}
 
@@ -78,9 +123,11 @@ body {
 
     max-width: 50%;
     margin-top: 8%;
-    margin-left: 11%;    
+    margin-left: 11%;
 
 }
+
+
 
 .big__slider--innercontainer-nova {
 
@@ -145,8 +192,6 @@ body {
     flex-direction: row;
     justify-content: center;
     padding: 5px 0 5px 0;
-
-
 }
 
 /* .main__top::before {
@@ -166,7 +211,10 @@ body {
 .main__top-item {
 
     display: block;
-    width: 340px;
+    max-width: 340px;
+    width: 100%;
+    margin: 30px 16px 30px 16px;
+
 }
 
 .main__block--row-container-item {
@@ -323,6 +371,11 @@ body {
         font-size: 40px;
     }
 
+    .main__greetings {
+
+        font-size: 40px;
+    }
+
 
 }
 
@@ -342,7 +395,7 @@ body {
         margin-top: 8%;
         margin-left: 10%;
         margin-right: 10%;
-        
+
 
     }
 
@@ -358,9 +411,7 @@ body {
     }
 
     .big__slider--innercontainer-button {
-
         max-width: 200px;
-        
     }
 
     .big__slider--item1 {
@@ -382,5 +433,13 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .main__greetings {
+        margin-left: 0;
+        margin-top: 74px;
+        margin-bottom: 57px;
+        font-size: 36px;
+    }
+
 
 }
