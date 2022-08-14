@@ -67,7 +67,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 21px;    
+    line-height: 21px;
     color: #FFFFFF;
     margin-left: 100px;
 
@@ -219,7 +219,6 @@ body {
 
 .main__block--row-container-item {
 
-
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -231,14 +230,13 @@ body {
 
     width: 340px;
     padding: 0;
-    position: relative;
-    top: 4px;
+    position: relative;    
 
 }
 
 .main__block--row-container-item-bottom {
 
-    width: 340px;
+    max-width: 340px;
     height: 56px;
     background: rgba(130, 81, 231, 0.94);
     border-radius: 0px 0px 10px 10px;
@@ -277,6 +275,21 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+.main__bottom-text {
+
+    font-family: 'Krub', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #2C1043;
+}
+
+.main__bottom-slider {
+
+    width: auto;
 }
 
 .main__bottom span {
