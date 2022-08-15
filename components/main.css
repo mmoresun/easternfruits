@@ -235,7 +235,8 @@ body {
     background-image: url('./backgrounds/main__trademarks.png');
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 100px;
+    background-position-y: 6rem;
+    background-size: 75%;
 
 }
 
@@ -460,6 +461,29 @@ body {
     line-height: 21px;
 }
 
+
+@media (max-width: 768px) {
+
+
+    .main__bottom-text {
+        background-image: none;
+        padding-left: 0px;
+        margin: 0 15px 5px 15px;
+        width: auto;
+        padding-bottom: 60px;
+    }
+
+    .main__bottom-text-last {
+        background-image: none;
+        padding-left: 0px;
+        margin: 0 15px 5px 15px;
+        width: auto;
+        padding-bottom: 60px;
+
+    }
+
+}
+
 @media (max-width: 576px) {
 
     .big__slider--innercontainer-header {
@@ -470,6 +494,15 @@ body {
     .main__greetings {
 
         font-size: 40px;
+    }
+
+    .main__bottom-text {
+        background-image: none;
+        padding-left: 0px;
+        margin: 0 15px 5px 15px;
+        width: auto;
+        padding-bottom: 60px;
+
     }
 
 
