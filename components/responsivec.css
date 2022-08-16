@@ -1,61 +1,5 @@
 
-
-@media (max-width: 768px) {
-
-
-    .main__bottom-text {
-        background-image: none;
-        padding-left: 0px;
-        margin: 0 15px 5px 15px;
-        width: auto;
-        padding-bottom: 60px;
-    }
-
-    .main__bottom-text-last {
-        background-image: none;
-        padding-left: 0px;
-        margin: 0 15px 5px 15px;
-        width: auto;
-        padding-bottom: 60px;
-
-    }
-
-}
-
-@media (max-width: 576px) {
-
-    .big__slider--innercontainer-header {
-
-        font-size: 2.5rem;
-    }
-
-    .main__greetings {
-
-        font-size: 2.5rem;
-    }
-
-    .main__bottom-text {
-        background-image: none;
-        padding-left: 0px;
-        margin: 0 15px 5px 15px;
-        width: auto;
-        padding-bottom: 60px;
-
-    }
-
-    .footer__greeting {
-        line-height: 2.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .footer__text {
-        line-height: 2rem;
-    }
-
-
-}
-
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 
     .header__background {
 
@@ -92,6 +36,75 @@
         width: 3.25rem;
         height: 2.7rem;
     }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .main__bottom-text {
+        background-image: none;
+        padding-left: 0px;
+        margin: 0 15px 5px 15px;
+        width: auto;
+        padding-bottom: 60px;
+    }
+
+    .main__bottom-text-last {
+        background-image: none;
+        padding-left: 0px;
+        margin: 0 15px 5px 15px;
+        width: auto;
+        padding-bottom: 60px;
+
+    }
+
+    .footer__greeting {
+
+        line-height: 2.5rem;
+        margin-bottom: .5rem;
+
+    }
+
+    .footer__text {
+        line-height: 2rem;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .big__slider--innercontainer-header {
+
+        font-size: 2.5rem;
+    }
+
+    .main__greetings {
+
+        font-size: 2.5rem;
+    }
+
+    .main__bottom-text {
+        background-image: none;
+        padding-left: 0px;
+        margin: 0 15px 5px 15px;
+        width: auto;
+        padding-bottom: 60px;
+
+    }
+
+    .footer__greeting {
+        line-height: 2.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .footer__text {
+        line-height: 2rem;
+    }
+
 
 }
 
