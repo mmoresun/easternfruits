@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+
+    .navbar__phone-mobile {
+        display: flex;
+    }
+
+    .navbar__phone-mobile>a {
+
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .navbar__phone-desktop {
+
+        display: none;
+    }
+
+    .navbar__search {
+
+        display: none;
+    }
+
+    .navbar__language {
+
+        display: none;
+    }
+
+    .navbar-brand>img {
+
+        width: 3.25rem;
+        height: 2.7rem;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    .navbar__phone-mobile>a {
+
+        color: #fff;
+        text-decoration: none;
+        font-size: .7rem;
+    }
+}
