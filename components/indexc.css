@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     font-size: 16px;
     font-style: normal;
-        
+
 }
 
 .container-fluid {
@@ -22,7 +22,7 @@ body {
     height: 88px;
     position: absolute;
     background-color: #2C1043;
-    top:0;
+    top: 0;
 }
 
 .navbar-nav {
@@ -194,7 +194,7 @@ body {
     max-width: 553px;
     font-weight: 500;
     font-size: 1.25rem;
-    line-height: 1.6re,;
+    line-height: 1.6re, ;
     color: #000000;
     margin-bottom: 3.4rem;
 }
@@ -343,7 +343,7 @@ body {
     padding-left: 40px;
     padding-bottom: 0px;
     max-height: 430px;
-    height:fit-content;
+    height: fit-content;
 
 }
 
@@ -358,6 +358,40 @@ body {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+.main__bottom-presentaion {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0 0 50px 0;     
+}
+
+.main__bottom-presentaion-button {
+
+    width: 340px;
+    height: 56px;
+    background: #8251E7;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.main__bottom-presentaion-button>img {
+
+    height: 1rem;
+    
 }
 
 .footer {
