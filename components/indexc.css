@@ -57,7 +57,7 @@ body {
 .navbar__language>select>option {
 
     color: #000;
-    font-size: .7rem;
+    font-size: 1rem;
 }
 
 .navbar__search {

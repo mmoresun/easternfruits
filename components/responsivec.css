@@ -37,6 +37,32 @@
         height: 2.7rem;
     }
 
+    .main__bottom {
+
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .main__bottom-text {
+        background-image: none;
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+
+    .main__bottom-text-last {
+
+        background-image: none;
+        padding: 16px;
+        margin-bottom: 1rem;
+
+    }
+
+    .main__bottom-slider {
+
+        padding-bottom: 1rem;
+    }
+
+
 }
 
 
