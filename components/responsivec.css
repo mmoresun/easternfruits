@@ -119,7 +119,14 @@
         margin: 0 15px 5px 15px;
         width: auto;
         padding-bottom: 60px;
+        padding-right: 0;
+        padding-bottom: 1rem;
 
+    }
+
+    .main__bottom-text-last {
+        padding-right: 0;
+        padding-bottom: 1rem;
     }
 
     .footer__greeting {
@@ -161,6 +168,11 @@
         flex-direction: column;
         align-items: center;
 
+    }
+
+    .main__top-item  {
+
+        margin: 20px 0 20px 0;
     }
 
     .big__slider--innercontainer {
@@ -225,7 +237,8 @@
         padding-left: 0px;
         margin: 0 15px 5px 15px;
         width: auto;
-        padding-bottom: 60px;
+        padding-bottom: 25px;
+        padding-right: 0;
 
     }
 
@@ -235,7 +248,8 @@
         padding-left: 0px;
         margin: 0 15px 5px 15px;
         width: auto;
-        padding-bottom: 60px;
+        padding-bottom: 25px;
+        padding-right: 0;
 
     }
 

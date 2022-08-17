@@ -339,10 +339,11 @@ body {
     color: #2C1043;
     background-image: url('./backgrounds/main__bottom-vertical-line.png');
     background-repeat: no-repeat;
+    /* background-size: auto; */
     padding-left: 40px;
     padding-bottom: 0px;
     max-height: 430px;
-    height: auto;
+    height:fit-content;
 
 }
 
