@@ -37,6 +37,16 @@
         height: 2.7rem;
     }
 
+    .big__slider--innercontainer {
+
+        position: relative;        
+    }
+
+    .big__slider--innercontainer-button {
+        position: absolute;
+        top: 300px;
+    }
+
     .main__bottom {
 
         flex-direction: column;
@@ -74,6 +84,15 @@
 
 
 @media (max-width: 768px) {
+
+    .big__slider--innercontainer {
+        position: relative;
+    }
+
+    .big__slider--innercontainer-button {
+        position: absolute;
+        top: 400px;
+    }
 
 
     .main__bottom-text {
@@ -115,6 +134,18 @@
 }
 
 @media (max-width: 576px) {
+
+
+    .big__slider--innercontainer {
+        position: relative;
+    }
+
+    .big__slider--innercontainer-button {
+
+        position: absolute;
+        top: 420px;
+    }
+  
 
     .big__slider--innercontainer-header {
 

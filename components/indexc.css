@@ -153,6 +153,7 @@ body {
     max-width: 50%;
     margin-top: 8%;
     margin-left: 11%;
+    position: relative;
 
 }
 
@@ -213,6 +214,8 @@ body {
     border-radius: 10px;
     border: none;
     margin-bottom: 147px;
+    position: absolute;
+    top: 300px;
 }
 
 .main__top {
