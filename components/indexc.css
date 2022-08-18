@@ -411,8 +411,7 @@ body {
     width: 340px;
     height: 56px;
     background: #8251E7;
-    border-radius: 10px;
-    color: #fff;
+    border-radius: 10px;    
     border: none;
     outline: none;
     display: flex;
@@ -426,10 +425,11 @@ body {
     font-size: 1rem;
 }
 
-.main__bottom-presentaion-button>img {
+.main__bottom-presentaion-button>a {
 
-    height: 1rem;
-
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer {
