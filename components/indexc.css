@@ -75,7 +75,7 @@ body {
     border: none;
     background-color: transparent;
     outline: none;
-    color: rgba(255, 255, 255, .5);
+    color:  rgba(44, 16, 67, 1);
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -84,7 +84,7 @@ body {
 }
 
 .navbar__language>select:hover {
-    color: rgba(255, 255, 255, .7);
+    color:  rgba(44, 16, 67, 1);
 }
 
 .navbar__language>select>option {
@@ -95,13 +95,13 @@ body {
 
 .navbar__search {
 
-    color: rgba(255, 255, 255, .5);
+    color:  rgba(44, 16, 67, 1);
     text-align: center;
 }
 
 .navbar__search:hover {
 
-    color: rgba(255, 255, 255, .8);
+    color:  rgba(44, 16, 67, 1);
     text-align: center;
 }
 
@@ -139,7 +139,6 @@ body {
 .slider__background {
 
     background-image: url('./backgrounds/big__slider_background_grey.jpg');
-
 
 }
 
