@@ -27,7 +27,7 @@
 
         <div class="header row" id="header">
 
-            <nav class="navbar navbar-expand-lg navbar-dark w-100" style="background-color: #2C1043;" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark w-100" id="navbar">
 
                 <a class="navbar-brand col-1" href="#">
 
@@ -101,7 +101,7 @@
 
         </div>
 
-        <div class="slider row">
+        <div class="slider row" style="margin-top: -88px">
 
             <div class="col-12" style="padding: 0;">
 
@@ -462,16 +462,6 @@
 
                 if (window.pageYOffset > 89) {
 
-                    headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
-                    header.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
-                    navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
-                    navlink.forEach(element => element.style.setProperty('color', '#2C1043'));
-                    dropLang.style.setProperty('color', '#2C1043');
-                    navSearch.style.setProperty('color', '#2C1043');
-                }
-
-                else {
-
                     headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
                     header.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
                     navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
@@ -479,6 +469,17 @@
                     dropLang.style.setProperty('color', '');
                     navSearch.style.setProperty('color', '');
 
+
+                }
+
+                else {
+
+                    headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
+                    header.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
+                    navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
+                    navlink.forEach(element => element.style.setProperty('color', '#2C1043'));
+                    dropLang.style.setProperty('color', '#2C1043');
+                    navSearch.style.setProperty('color', '#2C1043');
                 }
             }
 
