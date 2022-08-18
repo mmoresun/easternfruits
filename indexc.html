@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="utf-8">
@@ -73,7 +73,7 @@
 
                     </div>
 
-                    <div class="navbar__search col-1">
+                    <div class="navbar__search col-1" id="navsearch">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-search" viewBox="0 0 16 16">
@@ -86,7 +86,7 @@
 
                     <div class="navbar__language col-1">
 
-                        <select name="language" id="language">
+                        <select name="language" id="language" class="droplang">
 
                             <option value="RU">RU</option>
                             <option value="EN">EN</option>
@@ -434,9 +434,6 @@
 
     </div>
 
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -452,20 +449,42 @@
         let headerBackground = document.getElementById('headerback');
         let header = document.getElementById('header');
         let navbar = document.getElementById('navbar');
+        let navlink = document.querySelectorAll('.nav-link');
+        let windowWidth = window.innerWidth;
+        let dropLang = document.querySelector('.droplang');
+        let navSearch = document.querySelector('.navbar__search');
+
+        console.log(navSearch);
+
 
         document.addEventListener('scroll', function (e) {
-            if (window.pageYOffset > 89) {
-                headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
-                header.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
-                navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
-            } else {
-                headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
-                header.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
-                navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+
+            if (windowWidth > 991) {
+
+                if (window.pageYOffset > 89) {
+
+                    headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
+                    header.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
+                    navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 0)');
+                    navlink.forEach(element => element.style.setProperty('color', '#2C1043'));
+                    dropLang.style.setProperty('color', '#2C1043');
+                    navSearch.style.setProperty('color', '#2C1043');
+                }
+
+                else {
+
+                    headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+                    header.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+                    navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+                    navlink.forEach(element => element.style.setProperty('color', ''));
+                    dropLang.style.setProperty('color', '');
+                    navSearch.style.setProperty('color', '');
+                    
+                }
             }
         });
-    </script>
 
+    </script>
 
 </body>
 
