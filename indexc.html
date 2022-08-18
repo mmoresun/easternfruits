@@ -449,7 +449,7 @@
         let headerBackground = document.getElementById('headerback');
         let header = document.getElementById('header');
         let navbar = document.getElementById('navbar');
-        let navlink = document.querySelectorAll('.nav-link');        
+        let navlink = document.querySelectorAll('.nav-link');
         let dropLang = document.querySelector('.droplang');
         let navSearch = document.querySelector('.navbar__search');
 
@@ -478,9 +478,21 @@
                     navlink.forEach(element => element.style.setProperty('color', ''));
                     dropLang.style.setProperty('color', '');
                     navSearch.style.setProperty('color', '');
-                    
+
                 }
             }
+
+            else {
+
+                headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+                header.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+                navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
+                navlink.forEach(element => element.style.setProperty('color', ''));
+                dropLang.style.setProperty('color', '');
+                navSearch.style.setProperty('color', '');
+
+            }
+
         });
 
     </script>
