@@ -1,6 +1,10 @@
 
 @media (max-width: 992px) {
 
+    .backdground__wrapper {
+        background-image: none;
+    }
+
     .header__background {
 
         display: none;        
@@ -95,6 +99,10 @@
 
 @media (max-width: 768px) {
 
+    .backdground__wrapper {
+        background-image: none;
+    }
+
     .header {
         background-color: rgba(44, 16, 67, 1);
     }
@@ -156,6 +164,10 @@
 }
 
 @media (max-width: 576px) {
+
+    .backdground__wrapper {
+        background-image: none;
+    }
 
     .header {
         background-color: rgba(44, 16, 67, 1);
@@ -228,6 +240,10 @@
 }
 
 @media (max-width: 376px) {
+
+    .backdground__wrapper {
+        background-image: none;
+    }
 
     .header {
         background-color: rgba(44, 16, 67, 1);
