@@ -449,15 +449,14 @@
         let headerBackground = document.getElementById('headerback');
         let header = document.getElementById('header');
         let navbar = document.getElementById('navbar');
-        let navlink = document.querySelectorAll('.nav-link');
-        let windowWidth = window.innerWidth;
+        let navlink = document.querySelectorAll('.nav-link');        
         let dropLang = document.querySelector('.droplang');
         let navSearch = document.querySelector('.navbar__search');
 
-        console.log(navSearch);
-
 
         document.addEventListener('scroll', function (e) {
+
+            let windowWidth = window.innerWidth;
 
             if (windowWidth > 991) {
 
