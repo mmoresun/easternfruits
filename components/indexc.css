@@ -39,6 +39,20 @@ body {
     background-color: rgba(44, 16, 67, 0);
 }
 
+
+.navbar-toggler-icon {
+
+    opacity: .7;
+    background-image: url('./elements/clipart365828.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-color: rgba(44, 16, 67, 0);
+    
+    
+}
+
+
+
 .nav-link {
     color: rgba(44, 16, 67, 1);
 }

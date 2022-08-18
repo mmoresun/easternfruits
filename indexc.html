@@ -27,7 +27,7 @@
 
         <div class="header row" id="header">
 
-            <nav class="navbar navbar-expand-lg navbar-dark w-100" id="navbar">
+            <nav class="navbar navbar-expand-lg w-100" id="navbar">
 
                 <a class="navbar-brand col-1" href="#">
 
@@ -136,9 +136,12 @@
                             <div class="big__slider--item2">
 
                                 <div class="big__slider--innercontainer">
+                                    <div class="big__slider--innercontainer-nova" style="opacity: 0;">&nbsp;</div>
 
                                     <div class="big__slider--innercontainer-header">Широкий ассортимент сладостей и
                                         полезных продуктов</div>
+
+                                        <div class="big__slider--innercontainer-text">&nbsp;</div>
 
                                     <button class="big__slider--innercontainer-button">Весь ассортимент</button>
 
@@ -460,12 +463,12 @@
 
             if (windowWidth > 991) {
 
-                if (window.pageYOffset > 89) {
+                if (window.pageYOffset > 88) {
 
                     headerBackground.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
                     header.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
                     navbar.style.setProperty('background-color', 'rgba(44, 16, 67, 1)');
-                    navlink.forEach(element => element.style.setProperty('color', ''));
+                    navlink.forEach(element => element.style.setProperty('color', '#fff'));
                     dropLang.style.setProperty('color', '');
                     navSearch.style.setProperty('color', '');
 
