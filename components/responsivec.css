@@ -294,8 +294,9 @@
     }
 
     .big__slider--item1 {
+        
         max-height: 589px;
-        background-image: url('./backgrounds/header__background-mobile-violet.png');
+        
     }
 
     .big__slider--item2 {

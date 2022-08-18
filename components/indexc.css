@@ -39,6 +39,10 @@ body {
     background-color: rgba(44, 16, 67, 0);
 }
 
+.nav-link {
+    color: rgba(44, 16, 67, 1);
+}
+
 
 .navbar-nav {
 
